@@ -4,10 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Improvements
 
-validation in detail of the inputs with regular expressions
-add error classes to the inputs
-the user's session was added but not used (validate functionality)
-add logout and validate session on each pagement server
+validation in detail of the inputs with regular expressions.
+
+add error classes to the inputs.
+
+the user's session was added but not used (validate functionality).
+
+add logout and validate session on each pagement server.
 
 
 ## Development server
