@@ -1,0 +1,22 @@
+ <div class="col-sm-6 col-xs-12 ">
+   <div class="content">
+      <h3 class="subtitle-main text-center"> Crear cuenta</h3>
+      <div class="form-group">
+          <label for="type">Tipo:</label>
+          <select  class="form-control" id="type" [(ngModel)]="card.type">
+            <option disabled [ngValue]="''">Selecciona un tipo</option>
+            <option *ngFor="let item of catalog.type_cards" [ngValue]="item.type">{{item.name}}   </option>
+          </select>
+      </div>
+      <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" class="form-control" id="name" [(ngModel)]="card.name" >
+      </div>
+      <div class="form-group">
+        <a class="form-control btn btn-primary" (click)="validateForm()"> Crear cuenta</a>
+      </div>
+   </div>
+   
+ </div>
+ <app-error-alert></app-error-alert>
+ <app-loader></app-loader>

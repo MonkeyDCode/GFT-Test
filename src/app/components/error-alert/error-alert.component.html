@@ -1,0 +1,7 @@
+<div class="alert-container vAlign" [ngClass]="{'d-none': hidden}">
+  <div class="alert ">
+      <p [innerHTML]=msg></p>
+      <a *ngIf="redirect==''" class="pull-right btn btn-danger button-accept" (click)="hidden = true;">Aceptar</a>
+      <a *ngIf="redirect == 'login'" class="pull-right btn btn-danger button-accept" (click)="hidden = true;" routerLink="/login">Aceptar</a>
+  </div>
+</div>
