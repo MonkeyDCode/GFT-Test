@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
+## Improvements
+
+validation in detail of the inputs with regular expressions.
+
+add error classes to the inputs.
+
+the user's session was added but not used (validate functionality).
+
+add logout and validate session on each pagement server.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
