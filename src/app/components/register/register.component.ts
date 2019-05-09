@@ -8,8 +8,8 @@ import { LoaderComponent } from '../loader/loader.component';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit {
-  private user = { name: '', lastname: '' , email: '' , password: '' };
-  private errorMsg = '';
+  public user = { name: '', lastname: '' , email: '' , password: '' };
+  public errorMsg = '';
   @ViewChild (ErrorAlertComponent) errorAlert: ErrorAlertComponent;
   @ViewChild (LoaderComponent) loader: LoaderComponent;
   constructor(private apiService: ApiService) { }

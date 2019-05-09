@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./loader.component.scss']
 })
 export class LoaderComponent implements OnInit {
-  private hidden = true;
+  public hidden = true;
   constructor() { }
 
   ngOnInit() {

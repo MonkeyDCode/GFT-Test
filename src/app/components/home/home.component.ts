@@ -13,8 +13,8 @@ import { LoaderComponent } from '../loader/loader.component';
 export class HomeComponent implements OnInit {
 
   constructor(private apiService: ApiService, private session: SessionService) { }
-  private accounts = [];
-  private catalog = {_id: '', type_cards: []};
+  public accounts = [];
+  public catalog = {_id: '', type_cards: []};
   @ViewChild (ErrorAlertComponent) errorAlert: ErrorAlertComponent;
   ngOnInit() {
     this.getAccounts();

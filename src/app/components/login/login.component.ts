@@ -13,8 +13,8 @@ import {Router} from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  private user = { email: '' , password: '' };
-  private errorMsg = '';
+  public user = { email: '' , password: '' };
+  public errorMsg = '';
   @ViewChild (ErrorAlertComponent) errorAlert: ErrorAlertComponent;
   @ViewChild (LoaderComponent) loader: LoaderComponent;
   constructor(private apiService: ApiService, private session: SessionService, private router: Router) { }

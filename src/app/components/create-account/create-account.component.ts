@@ -13,8 +13,8 @@ export class CreateAccountComponent implements OnInit {
   @Input() public catalog;
   @ViewChild (ErrorAlertComponent) errorAlert: ErrorAlertComponent;
   @ViewChild (LoaderComponent) loader: LoaderComponent;
-  private card = {userId: '', type: '', name: ''};
-  private errorMsg = '';
+  public card = {userId: '', type: '', name: ''};
+  public errorMsg = '';
   constructor(private apiService: ApiService, private session: SessionService) { }
 
   ngOnInit() {

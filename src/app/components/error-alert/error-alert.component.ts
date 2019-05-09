@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./error-alert.component.scss']
 })
 export class ErrorAlertComponent implements OnInit {
-  private msg = '';
-  private redirect;
-  private hidden = true;
+  public msg = '';
+  public redirect;
+  public hidden = true;
   constructor() { }
 
   ngOnInit() {
