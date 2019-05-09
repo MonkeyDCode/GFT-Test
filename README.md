@@ -1,8 +1,8 @@
-#Live deploy
+## Live deploy
 https://gft-test.herokuapp.com/
 
 
-# GftTest
+## GftTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
